@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Waving</title>
+</head>
+<body>
+    <div id="canvas__keyboard" style="top : 10rem; left: 8rem;">
+        <div keyCode="Backquote" class="canvas__key key--`" style="top: 0rem; left: 01rem">`</div>
+        <div keyCode="Digit1" class="canvas__key key--1" style="top: 0rem; left: 06rem">1</div>
+        <div keyCode="Digit2" class="canvas__key key--2" style="top: 0rem; left: 11rem">2</div>
+        <div keyCode="Digit3" class="canvas__key key--3" style="top: 0rem; left: 16rem">3</div>
+        <div keyCode="Digit4" class="canvas__key key--4" style="top: 0rem; left: 21rem">4</div>
+        <div keyCode="Digit5" class="canvas__key key--5" style="top: 0rem; left: 26rem">5</div>
+        <div keyCode="Digit6" class="canvas__key key--6" style="top: 0rem; left: 31rem">6</div>
+        <div keyCode="Digit7" class="canvas__key key--7" style="top: 0rem; left: 36rem">7</div>
+        <div keyCode="Digit8" class="canvas__key key--8" style="top: 0rem; left: 41rem">8</div>
+        <div keyCode="Digit9" class="canvas__key key--9" style="top: 0rem; left: 46rem">9</div>
+        <div keyCode="Digit0" class="canvas__key key--0" style="top: 0rem; left: 51rem">0</div>
+        <div keyCode="Minus" class="canvas__key key---" style="top: 0rem; left: 56rem">-</div>
+        <div keyCode="Equal" class="canvas__key key--=" style="top: 0rem; left: 61rem">=</div>
+        <div keyCode="Backspace" class="canvas__key key--backspace" style="top: 0rem; left: 66rem;">Backspace</div>
+        <div keyCode="Tab" class="canvas__key key--tab" style="top: 05rem; left: 02rem;">Tab</div>
+        <div keyCode="KeyQ" class="canvas__key key--q" style="top: 05rem; left: 08rem;">Q</div>
+        <div keyCode="KeyW" class="canvas__key key--w" style="top: 05rem; left: 13rem;">W</div>
+        <div keyCode="KeyE" class="canvas__key key--e" style="top: 05rem; left: 18rem;">E</div>
+        <div keyCode="KeyR" class="canvas__key key--r" style="top: 05rem; left: 23rem;">R</div>
+        <div keyCode="KeyT" class="canvas__key key--t" style="top: 05rem; left: 28rem;">T</div>
+        <div keyCode="KeyY" class="canvas__key key--y" style="top: 05rem; left: 33rem;">Y</div>
+        <div keyCode="KeyU" class="canvas__key key--u" style="top: 05rem; left: 38rem;">U</div>
+        <div keyCode="KeyI" class="canvas__key key--i" style="top: 05rem; left: 43rem;">I</div>
+        <div keyCode="KeyO" class="canvas__key key--o" style="top: 05rem; left: 48rem;">O</div>
+        <div keyCode="KeyP" class="canvas__key key--p" style="top: 05rem; left: 53rem;">P</div>
+        <div keyCode="BracketLeft" class="canvas__key key--[" style="top: 05rem; left: 58rem;">[</div>
+        <div keyCode="BracketRight" class="canvas__key key--]" style="top: 05rem; left: 63rem;">]</div>
+        <div keyCode="Backslash" class="canvas__key key--\" style="top: 05rem; left: 68rem;">\</div>
+        <div keyCode="CapsLock" class="canvas__key key--capslock" style="top: 10rem; left: -6rem; width: 15rem">Caps Lock</div>
+        <div keyCode="KeyA" class="canvas__key key--a" style="top: 10rem; left: 10rem;">A</div>
+        <div keyCode="KeyS" class="canvas__key key--s" style="top: 10rem; left: 15rem;">S</div>
+        <div keyCode="KeyD" class="canvas__key key--d" style="top: 10rem; left: 20rem;">D</div>
+        <div keyCode="KeyF" class="canvas__key key--f" style="top: 10rem; left: 25rem;">F</div>
+        <div keyCode="KeyG" class="canvas__key key--g" style="top: 10rem; left: 30rem;">G</div>
+        <div keyCode="KeyH" class="canvas__key key--h" style="top: 10rem; left: 35rem;">H</div>
+        <div keyCode="KeyJ" class="canvas__key key--j" style="top: 10rem; left: 40rem;">J</div>
+        <div keyCode="KeyK" class="canvas__key key--k" style="top: 10rem; left: 45rem;">K</div>
+        <div keyCode="KeyL" class="canvas__key key--l" style="top: 10rem; left: 50rem;">L</div>
+        <div keyCode="Semicolon" class="canvas__key key--;" style="top: 10rem; left: 55rem;">;</div>
+        <div keyCode="Quote" class="canvas__key key--'" style="top: 10rem; left: 60rem;">'</div>
+        <div keyCode="Enter" class="canvas__key key--enter" style="top: 10rem; left: 65rem;">Enter</div>
+        <div keyCode="ShiftLeft" class="canvas__key key--shift" style="top: 15rem; left: 05rem;">Shift</div>
+        <div keyCode="KeyZ" class="canvas__key key--z" style="top: 15rem; left: 13rem;">Z</div>
+        <div keyCode="KeyX" class="canvas__key key--x" style="top: 15rem; left: 18rem;">X</div>
+        <div keyCode="KeyC" class="canvas__key key--c" style="top: 15rem; left: 23rem;">C</div>
+        <div keyCode="KeyV" class="canvas__key key--v" style="top: 15rem; left: 28rem;">V</div>
+        <div keyCode="KeyB" class="canvas__key key--b" style="top: 15rem; left: 33rem;">B</div>
+        <div keyCode="KeyN" class="canvas__key key--n" style="top: 15rem; left: 38rem;">N</div>
+        <div keyCode="KeyM" class="canvas__key key--m" style="top: 15rem; left: 43rem;">M</div>
+        <div keyCode="Comma" class="canvas__key key--," style="top: 15rem; left: 48rem;">,</div>
+        <div keyCode="Period" class="canvas__key key--." style="top: 15rem; left: 53rem;">.</div>
+        <div keyCode="Slash" class="canvas__key key--/" style="top: 15rem; left: 58rem;">/</div>
+        <div keyCode="ShiftRight" class="canvas__key key--shift location2" style="top: 15rem; left: 63rem;">Shift</div>
+        <div keyCode="ControlLeft" class="canvas__key key--ctrl" style="top: 20rem; left: 0rem;">Ctrl</div>
+        <div keyCode="AltLeft" class="canvas__key key--alt" style="top: 20rem; left: 17rem;">Alt</div>
+        <div keyCode="Space" class="canvas__key key--space" style="top: 20rem; left: 22rem; width: 25rem;"> </div>
+        <div keyCode="AltRight" class="canvas__key key--alt location2" style="top: 20rem; left: 48rem;">Alt</div>
+        <div keyCode="ControlRight" class="canvas__key key--ctrl location2" style="top: 20rem; left: 62rem;">Ctrl</div>
+    </div>
+    <canvas id="canvas"></canvas>
+    <div class="search-box">
+        <input class="search-box__search-box">
+        <i class="search-box__icon fa-solid fa-magnifying-glass"></i>
+    </div>
+    <!-- <div class="test"></div> -->
+    <style>
+    </style>
+    <script src="main.js"></script>
+</body>
+</html>

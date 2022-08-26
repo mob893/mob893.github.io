@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    font-family:sans-serif;
+}
+html {
+    font-size: 62.5%;
+    font-size: 100%;
+}
+body {
+    background-color: black;
+}
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+}
+
+#canvas__keyboard {
+    position: absolute;
+    top : 10rem;
+    left: 10rem;
+    
+}
+.canvas__key {
+    text-align: center;
+    position: absolute;
+    min-width: 4rem;
+    height: 4rem;
+    box-sizing: border-box;
+    background-color: transparent; 
+    top: 300px;
+    left: 300px;
+    font-size: 3.3rem;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    user-select: none;
+    transition: all 0.3s ease;
+}
+
+
+
+.test {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+.search-box {
+    display: flex;
+    position: absolute;
+    top: 5vw;
+    left: 35vw; 
+    width: 30vw;
+    height: 1.6vw;
+}
+
+.search-box__search-box {
+    position: absolute; 
+    width: 20vw;
+    font-size: 1.5vw;
+    font-family:  "YouTube Sans","Roboto",sans-serif;
+    background-color: transparent;
+    outline: none;
+
+    border-radius: 1.5vw;
+    border: 2px solid #00b9d17a;
+    color: #00b9d17a;
+    padding: 0 2.5vw 0 1vw;
+    transition: all 0.5s ease;
+}
+
+.search-box__search-box:focus-visible {
+    border-color: #00FCFF !important;
+    box-shadow: 0 0 10px 0 #14ffd8;
+    color: #14ffd8;
+}
+.search-box__icon {
+    position: absolute;
+    left: 21.5vw;
+    top: 0.3vw;
+    color: #00b9d17a;
+    font-size: 1.5vw;  
+}
+.search-box:focus-visible .search-box__icon {
+    border-color: #00FCFF !important;
+}
